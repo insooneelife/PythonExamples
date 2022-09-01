@@ -1,0 +1,10 @@
+namespace Packets;
+
+attribute "priority";
+
+table Body 
+{
+  data:string;
+}
+
+root_type Body;
